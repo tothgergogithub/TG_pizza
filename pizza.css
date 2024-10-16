@@ -1,6 +1,25 @@
 #fejlec{
-    background-image: url(kepek/02ds48.jpg);
+    background-image: url(kepek/header.jpg);
+    height: 350px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    
 }
+#logo{
+    font-size: 35px;
+    padding: 15px;
+
+}
+#hivatkozas{
+    float: right;
+    display: flex;
+    
+    
+}
+
 #bemutat{
     background-color: grey;
     padding: 60px;
@@ -14,4 +33,13 @@
     display: block;
 
 }
+body{
+    color: white;
+    margin: 0;
+}
+.kezdo{
+    padding: 15px;
+    margin: 0;
+    height: 15px;
     
+}    
