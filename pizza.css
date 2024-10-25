@@ -13,12 +13,12 @@
     padding: 15px;
 
 }
-.menu{
+.felsorol{
     float: right;
     height: 15px;
     padding: 30px;
     padding-bottom: 100%;
-    margin-top: -100px;
+    margin-top: -6%;
     
     
     
@@ -56,7 +56,7 @@ body{
     width: 50%;
     
     float: left;
-    margin-top: -25px;
+    margin-top: -3%;
 
 }
 
@@ -67,7 +67,7 @@ body{
 
 #szoveg{
     width: 50%;
-    margin-top: -50px;
+    margin-top: -5%;
     color: gray;
     float: right;
     
@@ -79,7 +79,7 @@ body{
 #szoveg2{
     float: right;
     padding-left: 150px;
-    margin-top: -50px;
+    margin-top: -6%;
 }
 .foglal{
     float: right;
@@ -88,27 +88,58 @@ body{
 }
 .cím{
     text-align: center;
-    margin-top: -80px;
+    margin-top: -5%;
     padding-left: 200px;
+    
 }
 h2{
     text-align: center;
     font-size: 15px;
     padding-left: 200px;
     color: grey;
+    margin-top: -2%;
 }
 .szoveg3{
     text-align: center;
     padding-left: 200px;
-    color: grey;
+  
 }
 #pizza{
-    width: 15%;
-    font-size: 20px;
-    margin-left: 170px;
+    width: 10%;
+    font-size: 15px;
+    margin-left: 290px;
     border: 1px;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
+    display: block;
+   
+    
+    
+    border-style: solid;
+}
+#menu_aj{
+    width: 10%;
+    font-size: 15px;
+    margin: auto;
+    border: 1px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin-top: -3.5%;
+   
+    
+    
+    border-style: solid;
+}
+#italok{
+    width: 10%;
+    font-size: 15px;
+    margin-left: 650px;
+    border: 1px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin-top: -3.7%;
    
     
     
