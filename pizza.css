@@ -36,6 +36,7 @@
     padding: 100px;
     
     display: block;
+    text-align: center;
     
 
 }
@@ -105,47 +106,44 @@ h2{
     padding-left: 200px;
   
 }
+
+
+.panelek{
+    display: inline;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    height: 50px;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
 #pizza{
-    width: 10%;
-    font-size: 15px;
-    margin-left: 290px;
-    border: 1px;
-    padding: 10px;
-    text-align: center;
-    display: block;
-   
-    
-    
-    border-style: solid;
+    margin-left: 5%;
 }
-#menu_aj{
-    width: 10%;
-    font-size: 15px;
-    margin: auto;
-    border: 1px;
-    padding: 10px;
-    text-align: center;
-    display: block;
-    margin-top: -3.5%;
-   
-    
-    
-    border-style: solid;
-}
+
 #italok{
-    width: 10%;
-    font-size: 15px;
-    margin-left: 650px;
-    border: 1px;
-    padding: 10px;
+    margin-right: 5%;
+}
+
+#panelsor{
     text-align: center;
-    display: block;
-    margin-top: -3.7%;
+    width: 65%;
+    padding-left: 12%;
+    padding-right: auto;
+    float: right;
+
+}
    
     
     
-    border-style: solid;
-}
+
 #special{
     background-color: rgb(54, 54, 54);
     padding: 100px;
@@ -251,4 +249,26 @@ h3{
 }
 a{
     color: white;
+}
+
+@media only screen and (max-width: 1000px){
+    #menu{
+        height: 700px;
+
+    }
+    .panelek{
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 5px;
+        padding: auto;
+
+    }
+
+    #panelsor{
+        width: 40%;
+    }
+
+
+
 }
