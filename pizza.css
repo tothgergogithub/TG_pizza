@@ -27,9 +27,22 @@
 
 #bemutat{
     background-color: rgb(54, 54, 54);
-    padding: 60px;
-    height: 150px;
+    height: 400px;
+    width: 100%;
+    
 
+
+
+}
+#Piadina{
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+#tortenet{
+    color: gray;
+    text-align: center;
+    padding-left: 160px;
 }
 #menu{
     background-color: black;
@@ -53,14 +66,7 @@ body{
     height: 15px;
     
 }    
-#tortenet{
-    padding-left: 200px;
-    width: 50%;
-    
-    float: left;
-    margin-top: -3%;
 
-}
 
 #tortenet2{
     text-align: center;
@@ -269,7 +275,7 @@ a{
         width: 40%;
     }
     #bemutat{
-        margin: 320px;
+        
     }
 
 
