@@ -89,7 +89,7 @@ width: 80%;
 body{
     max-width: 1280px;
     margin: 0 auto;
-    color: gray;
+    color: white;
     
    
  
@@ -199,7 +199,7 @@ h2{
    height: 360px;
    background-repeat: no-repeat;
    background-size: cover;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 #pizzakep_szoveg{
     text-align: center;
@@ -214,7 +214,7 @@ h2{
     height: 450px;
     width: 300px;
     margin-left: 50px;
-    margin-top: 40px;
+    margin-top: 60px;
     
  
 }
@@ -231,16 +231,23 @@ h2{
 #alsokep{
     display: flex;
     
+    
    
    
+}
+#alsobal{
+    display: flex;
+    
 }
 #salata{
     background-image: url(kepek/gomba.jpg);
     background-size: cover;
+    background-position: center;
     height: 250px;
     width: 250px;
     margin-right: 45px;
-    margin-top: -2%;
+    margin-top: -10%
+    
 }
 #salata_szoveg{
     text-align: center;
@@ -254,7 +261,7 @@ h2{
     height: 250px;
     width: 250px;
     
-    margin-top: -2%;
+    margin-top: -10%;
 }
 
 #pizza2_szoveg{
@@ -267,6 +274,7 @@ h2{
     background-image: url(kepek/leves.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     
     
     height: 250px;
@@ -339,27 +347,15 @@ a{
     color: white;
 }
  
-@media only screen and (max-width: 1000px){
-    #menu{
-        height: 700px;
- 
-    }
-    .panelek{
+@media only screen and (max-width: 350px){
+    #fejlec{
         display: block;
-        width: 50%;
-        margin: auto;
-        margin-bottom: 5px;
-        padding: auto;
- 
     }
- 
-    #panelsor{
-        width: 40%;
-    }
-    #bemutat{
-        display: block;
+    .felsorol{
+        float: left;
     }
     
+                 
 
 
 }
