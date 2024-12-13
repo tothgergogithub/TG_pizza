@@ -20,10 +20,18 @@
     padding: 30px;
     color:  white;
     margin-top: -6%;
+    display: flex;
    
    
    
    
+}
+#hamburgermenu{
+    height: 50px;
+    width: 50px;
+    opacity: 0%;
+    float: right;
+    margin-left: 5%;
 }
 h1{
     color: white;
@@ -347,13 +355,40 @@ a{
     color: white;
 }
  
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 400px){
     #fejlec{
-        display: block;
+        display: flex;
+    }
+    .kezdo{
+        opacity: 0%;
     }
     .felsorol{
-        float: left;
+        
     }
+    #hamburgermenu{
+        height: 40px;
+        width: 40px;
+        opacity: 100%;
+        float: right;
+        
+        
+        
+    }
+    #bemutat_bal{
+        width:50%;
+        display: block;
+        float: left;
+        
+    }
+    #bemutat_jobb{
+        width: 50%;
+        float: right;
+    }
+
+    #bemutat{
+        
+    }
+
     
                  
 
