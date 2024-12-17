@@ -4,9 +4,15 @@
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    display: block;
+    display: flex;
     background-size: cover;
    
+}
+#bal_fejlec{
+    width: 50%;
+}
+#fejlec_jobb{
+    width: 50%;
 }
 #logo{
     font-size: 35px;
@@ -14,24 +20,22 @@
     color: white;
  
 }
-.felsorol{
+.kezdo{
     float: right;
     height: 15px;
     padding: 30px;
     color:  white;
     margin-top: -6%;
     display: flex;
-   
-   
-   
-   
 }
+
 #hamburgermenu{
     height: 50px;
     width: 50px;
     opacity: 0%;
     float: right;
     margin-left: 5%;
+    
 }
 h1{
     color: white;
@@ -357,19 +361,22 @@ a{
  
 @media only screen and (max-width: 400px){
     #fejlec{
-        display: flex;
+        display: inline;
     }
     .kezdo{
         opacity: 0%;
     }
-    .felsorol{
+
         
-    }
+    
     #hamburgermenu{
         height: 40px;
         width: 40px;
         opacity: 100%;
         float: right;
+        padding-bottom: 30px;
+        
+        
         
         
         
@@ -385,9 +392,7 @@ a{
         float: right;
     }
 
-    #bemutat{
-        
-    }
+    
 
     
                  
