@@ -12,7 +12,7 @@
     width: 50%;
 }
 #fejlec_jobb{
-    width: 50%;
+    width: 100%;
 }
 #logo{
     font-size: 35px;
@@ -146,13 +146,7 @@ body{
    
    
 }
-h2{
-    text-align: center;
-    font-size: 15px;
-   
-    color: grey;
-    margin-top: -2%;
-}
+
 .szoveg3{
     text-align: center;
     width: 60%;
@@ -204,6 +198,9 @@ h2{
     display: block;
     margin: auto;
    
+}
+#special_alcim{
+    text-align: center;
 }
 #pizzakep{
    background-image: url(kepek/pizzaheader.jpg);
@@ -298,7 +295,36 @@ h2{
     text-align: center;
     color: white;
     padding-top: 230px;
+
 }
+#lablec_keret{
+    height: 500px;
+    background-color: black;
+    display: flex;
+    padding-top: 5%;
+}
+#lablec_bal{
+    width: 45%;
+    
+}
+#lablec_bal_cim{
+    float: right;
+    width;
+    
+    
+    
+}
+
+#lablec_kozep{
+    width: 33%;
+    display: block;
+}
+#lablec_jobb{
+    width: 33%;
+}
+
+
+/**
 #lablec{
     background-color: black;
     width: 100%;
@@ -361,7 +387,7 @@ a{
  
 @media only screen and (max-width: 400px){
     #fejlec{
-        display: inline;
+        
     }
     .kezdo{
         opacity: 0%;
