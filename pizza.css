@@ -298,7 +298,7 @@ body{
 
 }
 #lablec_keret{
-    height: 500px;
+    height: 800px;
     background-color: black;
     display: flex;
     padding-top: 5%;
@@ -309,7 +309,7 @@ body{
 }
 #lablec_bal_cim{
     float: right;
-    width;
+    width: 50%;
     
     
     
@@ -319,10 +319,27 @@ body{
     width: 33%;
     display: block;
 }
+#nyitva{
+    padding-left: 10%;
+    
+}
+#nyitvatartas{
+    padding-left: 10%;
+}
 #lablec_jobb{
     width: 33%;
 }
-
+#footer_jobb_cim{
+    width: 55%;
+    margin-left: 10%;
+}
+#link{
+    color: white;
+}
+#vonal{
+    width: 80%;
+    margin-top: 520px;
+}
 
 /**
 #lablec{
