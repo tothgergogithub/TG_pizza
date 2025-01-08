@@ -368,17 +368,24 @@ body{
     }
     #menu{
         display: block;
+        padding: 20px;
     }
     .szoveg3{
         width: 100%;
     }
+    #panelsor{
+        
+        margin-top: 5%;
+    }
     .panelek{
         display: block;
-        margin: auto;
-        padding-left: 5%;
+        margin: 5%;
+        height: 30px;
+        width: 45%;
     }
-    
-
+    #lablec{
+        
+    }
     
                  
 
