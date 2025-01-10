@@ -102,6 +102,7 @@ body{
     max-width: 1280px;
     margin: 0 auto;
     color: white;
+    overflow-x: hidden;
     
    
  
@@ -313,7 +314,7 @@ body{
 }
 #lablec_bal_cim{
     float: right;
-    width: 50%;
+    
     
     
     
@@ -330,6 +331,7 @@ body{
 #nyitvatartas{
     padding-left: 10%;
 }
+
 #lablec_jobb{
     width: 33%;
 }
@@ -383,11 +385,34 @@ body{
         height: 30px;
         width: 45%;
     }
-    #lablec{
+    #lablec_keret{
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    #lablec_bal{
+        
+        float: right;
+        width: 100%;
+    }
+    #lablec_bal_cim{
+        text-align: right;
         
     }
-    
                  
-
-
+    #lablec_bal_betu{
+        
+        width: 100%;
+        
+    }
+    #lablec_kozep{
+        width: 100%;
+    }
+    #lablec_jobb{
+        width: 100%;
+    }
+    #footer_jobb_cim{
+        float: left;
+        width: 100%;
+    }
 }
